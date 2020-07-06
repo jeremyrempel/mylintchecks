@@ -1,3 +1,5 @@
-include ':lint'
+include ':mylib'
+include ':mylib:myliblint'
 include ':app'
+include ':applint'
 rootProject.name = "mylinttest"
